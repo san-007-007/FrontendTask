@@ -32,7 +32,7 @@
         <p style="color: white;font-size: 100px;font-weight:bold;font-family: Qwitcher Grypen;margin-left: 35%;">Enjoy the best way!</p>
         <p style="color: white;font-size: 30px;font-weight:bold;font-family: Cambria;margin-left: 35%;">Enjoy our services for your trip anytime</p>
         
-        <div style="display: grid;grid-template-columns: repeat(2,auto);margin-left: 30%;border-radius: 25px;">
+        <div style="display: grid;grid-template-columns: repeat(2,auto);margin-left: 30%;">
           <form action="" style="background: white;display: inline-block;border-top-left-radius:5% ;border-bottom-left-radius: 5%;">
             <div class="form-grid" style="margin: 1%;">
               <p style="margin: 0;">Number of People</p>
@@ -262,7 +262,7 @@
       
           </div>
 
-          <button style="margin-left: 40%;">Book Now</button>
+          <button style="margin-left: 40%;" class="book">Book Now</button>
 
         </div>
 
@@ -286,7 +286,7 @@
           <p>Discount on Rickshaw</p>
           <p>Guaranteed Support</p>
         </div>
-        <button style="color: orange;border-width:1px;background: white;border-color: orange;">BOOK NOW</button>
+        <button style="color: orange;border-width:1px;background: white;border-color: orange;" class="book">BOOK NOW</button>
       </div>
 
       <div class="packages">
@@ -299,7 +299,7 @@
           <p>Discount on Rickshaw</p>
           <p>Guaranteed Support</p>
         </div>
-        <button style="color: orange;border-width:1px;background: white;border-color: orange;">BOOK NOW</button>
+        <button style="color: orange;border-width:1px;background: white;border-color: orange;" class="book">BOOK NOW</button>
       </div>
 
       <div class="packages">
@@ -312,7 +312,7 @@
           <p>Companion</p>
           <p>Guaranteed Support</p>
         </div>
-        <button style="color: orange;border-width:1px;background: white;border-color: orange;">BOOK NOW</button>
+        <button style="color: orange;border-width:1px;background: white;border-color: orange;" class="book">BOOK NOW</button>
       </div>
 
       <div class="packages">
@@ -325,7 +325,7 @@
           <p>At the best price</p>
           <p>Guaranteed Support</p>
         </div>
-        <button style="color: orange;border-width:1px;background: white;border-color: orange;">BOOK NOW</button>
+        <button style="color: orange;border-width:1px;background: white;border-color: orange;" class="book">BOOK NOW</button>
       </div>
 
     </div>
@@ -426,3 +426,12 @@
   <div class="footer">Copyright &#169; 2022. All rights reserved.</div>
 </body>
 </html>
+
+<script>
+  var books=document.querySelectorAll(".book");
+  books.forEach(book=>
+    book.onclick=function(){
+    alert("Succesfully Booked...")
+  }
+  );
+</script>
