@@ -1,0 +1,59 @@
+#lang{
+  color: white;background-color: transparent;border: none;
+}
+#logo{
+  width: 100px;height: 100px;
+}
+#lang option{
+  background: rgb(76, 73, 73);
+}
+.Header{
+  width: 97%;height: 80px;padding: 30px;display: grid;object-fit: fill;margin-bottom: 120px;
+  grid-template-columns: repeat(2,auto);background-color: rgba(189, 180, 180, 0.4);
+}
+select{
+  border-width: 0px;
+}
+input{
+  border: 0px;font-size: small;font-family: Arial;color: black;
+}
+p{
+  margin: 0;margin-bottom: 20px;
+}
+button{
+  width: 200px;height: 50px;border-radius: 25px;font-size: larger;
+  margin: 5%;background-color: orange;color: white;transition: color 2.5s;
+  transition: background-color 2.5s;font-weight: bold;
+}
+button:hover{
+  color: black;background-color:chocolate;
+}
+button:active{
+  opacity: 0.5;
+}
+.footer{
+  text-align: center;padding: 10px;background: rgb(50, 45, 45);color: white;
+}
+.packages{
+  border-radius: 20px;box-shadow: 5px 5px 5px rgba(64, 55, 55, 0.23);
+}
+
+.sideway-buttons{
+  width: 50px;height: 50px;border-radius: 80%;background-color: white;color: black;
+  transition: all 1.5s;font-size:larger;
+}
+.sideway-buttons:hover{
+  background-color: orange;color: white;
+}
+.share-buttons{
+  width: 80px;height: 80px;border-radius: 80%;transition: all 1s;
+}
+.share-buttons-img{
+  width: 80px;height: 80px;border-radius: 80%;
+}
+.share-buttons:hover{
+  box-shadow: 8px 3px 8px rgba(0, 0, 0, 0.623);
+}
+.share-buttons:active{
+  opacity: 0.5;
+}
